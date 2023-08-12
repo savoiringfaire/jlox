@@ -1,0 +1,6 @@
+/* my multi line comment
+another line */
+
+if ( thing ) {
+    otherThing = thing;
+}

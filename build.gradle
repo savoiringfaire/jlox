@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'uk.hhra.lox'
+version '1.0'
+
+application {
+    mainClassName = 'uk.hhra.lox.Lox'
+}
+
+run {
+    standardInput = System.in
+}
